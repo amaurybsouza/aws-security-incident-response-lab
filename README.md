@@ -23,6 +23,12 @@ The foundation of a successful incident response program in the cloud includes p
 
 ![alt text](image.png)
 
+## Security incident response workflow
+To respond to security incidents effectively and robustly, the following phases serve as a guideline.
+
+- Prepare: preparation is done  across three areas.
+    - People: identify stakeholders, and train them on incident response  and cloud technologies.
+
 ## Key Topics
 
 - AWS GuardDuty
