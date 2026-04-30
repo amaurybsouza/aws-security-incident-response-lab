@@ -15,6 +15,14 @@ The goal is to understand how to detect, investigate, contain, and prevent secur
 
 ---
 
+## Security Incident Definition
+Security incident response is an essential part of IT programs. Cybersecurity-related issues are numerous and diverse. They are damaging and disruptive, and new types of security-related incidents emerge frequently. 
+
+## Response Process
+The foundation of a successful incident response program in the cloud includes preparation, operations, and post-incident activity. 
+
+![alt text](image.png)
+
 ## Key Topics
 
 - AWS GuardDuty
