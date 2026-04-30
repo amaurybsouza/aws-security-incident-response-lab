@@ -28,6 +28,13 @@ To respond to security incidents effectively and robustly, the following phases 
 
 - Prepare: preparation is done  across three areas.
     - People: identify stakeholders, and train them on incident response  and cloud technologies.
+    - Process: document architectures, create playbooks for consistent response to security events.
+    - Technology: set up access, aggregate and monitor necessary logs, implement alerting mechanisms.
+
+- Detect: identify a potential security incident.
+    - an alert in the main component of the detect phase. It generates  a notification to initiate the incident response processo.
+
+- Analyse: Determine if the security event is an incident and assess the scope of the incident.
 
 ## Key Topics
 
