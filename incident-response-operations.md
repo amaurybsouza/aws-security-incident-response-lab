@@ -75,3 +75,16 @@ Review the CloudTrail Event history to determine when activity was performed usi
 - Create a detailed chronological sequence of events.
 - Identify vulnerabilities or misconfigurations exploited and document for future prevention.
 - Map lateral movement and escalation attempts.
+
+## Contain Phase
+will block malicious sources, remove access paths, and protect target resources. 
+
+![alt text](image-contain.png)
+
+### sasas
+- Use filtering and routing to prevent access from a certain source.
+
+- Examples of source containment using AWS services are:
+    - Security groups: Contain unauthorized traffic to an Amazon EC2 instance or AWS resource using isolation security groups.
+    - Policies: Amazon S3 bucket policies can be configured to block or allow traffic from an IP address, a network range, or a VPC endpoint. Policies can also explicitly prevent users from accessing an Amazon S3 bucket.
+    - AWS WAF: You can add an IP address to an IP set configured on AWS WAF, and apply match conditions, such as block, to the IP set. This will block web requests to a resource if the IP address from the originating traffic match those configured in the IP set rules.
