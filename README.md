@@ -16,15 +16,15 @@ This repository documents my learning journey on AWS Security Incident Response,
 
 ### Tabletop
  The tabletop approach to simulations is a discussion-based session involving various incident response stakeholders to practice roles and responsibilities and use established communication tools and playbooks. 
- ![alt text](image-response1.png)
+ ![alt text](https://github.com/amaurybsouza/aws-security-incident-response-lab/blob/main/images/image-response3.png)
 
 ### Purple Team exercises
   Increase the level of collaboration between the incident responders (Blue Team) and simulated threat actors (Red Team).
-  ![alt text](image-response2.png)
+  ![alt text](https://github.com/amaurybsouza/aws-security-incident-response-lab/blob/main/images/image-response1.png)
 
 ### Red Team exercise
 the offense (Red Team) conducts a simulation to achieve a certain objective from a pre-determined scope.
-![alt text](image-response3.png)
+![alt text](https://github.com/amaurybsouza/aws-security-incident-response-lab/blob/main/images/image-response2.png)
 
 ## Objectives
 
