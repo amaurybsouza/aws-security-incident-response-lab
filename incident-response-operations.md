@@ -56,7 +56,7 @@ Review the CloudTrail Event history to determine when activity was performed usi
 
 - The Event time column tells the date and time the user used the compromised Access key ID.
 - The User name column shows the username associated with the Access key.
-![alt text](image-4.png)
+![alt text](https://github.com/amaurybsouza/aws-security-incident-response-lab/blob/main/images/image-4.png)
 
 #### Validate, scope, and assess impact of the alert
 - Validate the alert. Make sure it is not a false positive.
