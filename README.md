@@ -11,6 +11,21 @@ This repository documents my learning journey on AWS Security Incident Response,
 
 ---
 
+## The Foundation of Incident Response
+ Having security gamedays is one method that can be used to test the effectiveness of an organization's incident response plans.
+
+ - Tabletop
+ The tabletop approach to simulations is a discussion-based session involving various incident response stakeholders to practice roles and responsibilities and use established communication tools and playbooks. 
+ ![alt text](image.png)
+
+ - Purple Team exercises
+  Increase the level of collaboration between the incident responders (Blue Team) and simulated threat actors (Red Team).
+  ![alt text](image-1.png)
+
+- Red Team exercise
+the offense (Red Team) conducts a simulation to achieve a certain objective from a pre-determined scope.
+![alt text](image-2.png)
+
 ## Objectives
 
 - Understand the incident response lifecycle in AWS
