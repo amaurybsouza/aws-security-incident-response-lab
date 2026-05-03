@@ -7,7 +7,7 @@ This repository documents my learning journey on AWS Security Incident Response,
  
  to detect, analyze, and respond to real-world security threats such as ransomware attacks, cryptomining incidents, and compromised credentials.
 
- ![alt text](image-4.png)
+ ![alt text](https://github.com/amaurybsouza/aws-security-incident-response-lab/blob/main/images/image-45.png)
 
 ---
 
