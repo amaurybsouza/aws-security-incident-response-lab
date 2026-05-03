@@ -43,6 +43,14 @@ Navigate to Amazon GuardDuty to confirm the alert.
 ## Analyze phase
 The following steps outline ways for security teams to analyze threats or ongoing attacks within their environment.
 
+### View event history
+Navigate to AWS CloudTrail and select Event history to view the event history. To review the events associated with the exposed Access key ID, in the first attributes field, choose AWS access key.
+![alt text](image-2.png)
+
+### Review events associated with the exposed Access key ID
+In the second Lookup attributes field, enter the compromised AWS access key – AKIA…6D5U.
+![alt text](image-3.png)
+
 #### Validate, scope, and assess impact of the alert
 - Validate the alert. Make sure it is not a false positive.
 - Define the scope. Inventory all resources involved and determine the incident severity.
