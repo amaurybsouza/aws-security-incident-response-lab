@@ -1,7 +1,11 @@
 # AWS Security Incident Response Lab
-This repository documents my learning journey on AWS Security Incident Response, based on hands-on study and practical scenarios.
-
-The goal is to understand how to detect, investigate, contain, and prevent security incidents in AWS cloud environments.
+This repository documents my learning journey on AWS Security Incident Response, based on hands-on study and practical scenarios. The goal is to understand how to detect, investigate, contain, and prevent security incidents in AWS cloud environments. I use the essential AWS security tools like:
+ 
+ - Amazon GuardDuty
+ - AWS CloudTrail
+ - Amazon CloudWatch... 
+ 
+ to detect, analyze, and respond to real-world security threats such as ransomware attacks, cryptomining incidents, and compromised credentials.
 
 ---
 
