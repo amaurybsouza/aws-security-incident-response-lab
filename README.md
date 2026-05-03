@@ -27,7 +27,7 @@ Security incident response is an essential part of IT programs. Cybersecurity-re
 ## Response Process
 The foundation of a successful incident response program in the cloud includes preparation, operations, and post-incident activity. 
 
-![alt text](image.png)
+![alt text](https://github.com/amaurybsouza/aws-security-incident-response-lab/blob/main/images/image.png)
 
 ## Security incident response workflow
 To respond to security incidents effectively and robustly, the following phases serve as a guideline.
