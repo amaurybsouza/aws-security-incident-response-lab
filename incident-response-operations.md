@@ -38,18 +38,18 @@ If Amazon GuardDuty detects an EC2 instance making outbound connections to known
 #### Demonstration of Detection an alert
 Navigate to Amazon GuardDuty to confirm the alert.
 
-![alt text](image-1.png)
+![alt text](https://github.com/amaurybsouza/aws-security-incident-response-lab/blob/main/images/image-1.png)
 
 ## Analyze phase
 The following steps outline ways for security teams to analyze threats or ongoing attacks within their environment.
 
 ### View event history
 Navigate to AWS CloudTrail and select Event history to view the event history. To review the events associated with the exposed Access key ID, in the first attributes field, choose AWS access key.
-![alt text](image-2.png)
+![alt text](https://github.com/amaurybsouza/aws-security-incident-response-lab/blob/main/images/image-2.png)
 
 ### Review events associated with the exposed Access key ID
 In the second Lookup attributes field, enter the compromised AWS access key – AKIA…6D5U.
-![alt text](image-3.png)
+![alt text](https://github.com/amaurybsouza/aws-security-incident-response-lab/blob/main/images/image-3.png)
 
 ### Determine compromised user
 Review the CloudTrail Event history to determine when activity was performed using the compromised Access key.
