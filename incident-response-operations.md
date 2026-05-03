@@ -1,4 +1,4 @@
-### Learn the detection phase of incident response operations
+### Detection phase of incident
 The following steps outline ways for security teams to identify potential threats or ongoing attacks within their environment.
 
 #### Review AWS service notifications
@@ -39,3 +39,24 @@ If Amazon GuardDuty detects an EC2 instance making outbound connections to known
 Navigate to Amazon GuardDuty to confirm the alert.
 
 ![alt text](image-1.png)
+
+## Analyze phase
+The following steps outline ways for security teams to analyze threats or ongoing attacks within their environment.
+
+#### Validate, scope, and assess impact of the alert
+- Validate the alert. Make sure it is not a false positive.
+- Define the scope. Inventory all resources involved and determine the incident severity.
+- Determine potential impact and the actual business disruption.
+- Prioritize the investigation based on business impact.
+
+#### Collect evidence and create context
+- Capture volatile data first. Document all collection methods and timestamps.
+- Gather relevant logs, metrics, and system data while maintaining a chain of custody.
+- Use AWS-native tools like AWS CloudWatch, AWS CloudTrail, VPC Flow Logs
+- Use threat intelligence and automation to provide deeper context and more efficient analysis of security events.
+
+#### Develop narratives
+- Determine how the incident occurred and identify the initial compromise vector.
+- Create a detailed chronological sequence of events.
+- Identify vulnerabilities or misconfigurations exploited and document for future prevention.
+- Map lateral movement and escalation attempts.
