@@ -77,11 +77,11 @@ Review the CloudTrail Event history to determine when activity was performed usi
 - Map lateral movement and escalation attempts.
 
 ## Contain Phase
-will block malicious sources, remove access paths, and protect target resources. 
+In this phase we will block malicious sources, remove access paths, and protect target resources. 
 
-![alt text](image-contain.png)
+![alt text](https://github.com/amaurybsouza/aws-security-incident-response-lab/blob/main/images/image-contain.png)
 
-### sasas
+### The categories of containment steps
 - Use filtering and routing to prevent access from a certain source.
 
 - Examples of source containment using AWS services are:
