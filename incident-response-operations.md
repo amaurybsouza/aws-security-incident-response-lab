@@ -51,6 +51,13 @@ Navigate to AWS CloudTrail and select Event history to view the event history. T
 In the second Lookup attributes field, enter the compromised AWS access key – AKIA…6D5U.
 ![alt text](image-3.png)
 
+### Determine compromised user
+Review the CloudTrail Event history to determine when activity was performed using the compromised Access key.
+
+- The Event time column tells the date and time the user used the compromised Access key ID.
+- The User name column shows the username associated with the Access key.
+![alt text](image-4.png)
+
 #### Validate, scope, and assess impact of the alert
 - Validate the alert. Make sure it is not a false positive.
 - Define the scope. Inventory all resources involved and determine the incident severity.
